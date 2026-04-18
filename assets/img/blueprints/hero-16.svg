@@ -1,0 +1,224 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #05070a; }
+      .grid-fine { stroke: #1d2f3f; stroke-width: 0.25; }
+      .grid-major { stroke: #1d2f3f; stroke-width: 0.5; }
+      .contour { fill: none; stroke: #6fa8ff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .hidden { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-dasharray: 6 3; }
+      .dim { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-linecap: round; }
+      .dim-arrow { fill: #6fa8ff; }
+      .dim-text { fill: #6fa8ff; font-family: "SF Mono", monospace; font-size: 9px; }
+      .axis { stroke: #6fa8ff; stroke-width: 0.6; stroke-dasharray: 6 3; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="420" height="260" />
+
+  <!-- !5B:0 -->
+  <g opacity="0.35">
+    <g class="grid-fine">
+      <line x1="20" y1="40" x2="20" y2="220" />
+      <line x1="40" y1="40" x2="40" y2="220" />
+      <line x1="60" y1="40" x2="60" y2="220" />
+      <line x1="80" y1="40" x2="80" y2="220" />
+      <line x1="100" y1="40" x2="100" y2="220" />
+      <line x1="120" y1="40" x2="120" y2="220" />
+      <line x1="140" y1="40" x2="140" y2="220" />
+      <line x1="160" y1="40" x2="160" y2="220" />
+      <line x1="180" y1="40" x2="180" y2="220" />
+      <line x1="200" y1="40" x2="200" y2="220" />
+      <line x1="220" y1="40" x2="220" y2="220" />
+      <line x1="240" y1="40" x2="240" y2="220" />
+      <line x1="260" y1="40" x2="260" y2="220" />
+      <line x1="280" y1="40" x2="280" y2="220" />
+      <line x1="300" y1="40" x2="300" y2="220" />
+      <line x1="320" y1="40" x2="320" y2="220" />
+      <line x1="340" y1="40" x2="340" y2="220" />
+      <line x1="360" y1="40" x2="360" y2="220" />
+      <line x1="380" y1="40" x2="380" y2="220" />
+      <line x1="400" y1="40" x2="400" y2="220" />
+
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="80" x2="400" y2="80" />
+      <line x1="20" y1="100" x2="400" y2="100" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="140" x2="400" y2="140" />
+      <line x1="20" y1="160" x2="400" y2="160" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="200" x2="400" y2="200" />
+    </g>
+    <g class="grid-major">
+      <line x1="60" y1="40" x2="60" y2="220" />
+      <line x1="140" y1="40" x2="140" y2="220" />
+      <line x1="220" y1="40" x2="220" y2="220" />
+      <line x1="300" y1="40" x2="300" y2="220" />
+      <line x1="380" y1="40" x2="380" y2="220" />
+
+      <line x1="20" y1="80" x2="400" y2="80" />
+      <line x1="20" y1="140" x2="400" y2="140" />
+      <line x1="20" y1="200" x2="400" y2="200" />
+    </g>
+  </g>
+
+  <!-- (B0=35=F8@:C;L, 284 A;520 =0?@02> -->
+
+  <!-- (:0;0 (;8=59:0) -->
+  <g>
+    <rect class="contour" x="60" y="120" width="260" height="16" rx="2" ry="2" />
+
+    <!-- >A=>2=0O H:0;0 45;5=89 -->
+    <g>
+      <!-- :@C?=K5 45;5=8O -->
+      <line class="contour" x1="70" y1="120" x2="70" y2="128" />
+      <line class="contour" x1="90" y1="120" x2="90" y2="128" />
+      <line class="contour" x1="110" y1="120" x2="110" y2="128" />
+      <line class="contour" x1="130" y1="120" x2="130" y2="128" />
+      <line class="contour" x1="150" y1="120" x2="150" y2="128" />
+      <line class="contour" x1="170" y1="120" x2="170" y2="128" />
+      <line class="contour" x1="190" y1="120" x2="190" y2="128" />
+      <line class="contour" x1="210" y1="120" x2="210" y2="128" />
+      <line class="contour" x1="230" y1="120" x2="230" y2="128" />
+      <line class="contour" x1="250" y1="120" x2="250" y2="128" />
+      <line class="contour" x1="270" y1="120" x2="270" y2="128" />
+      <line class="contour" x1="290" y1="120" x2="290" y2="128" />
+
+      <!-- <5;:85 45;5=8O -->
+      <line class="hidden" x1="80" y1="120" x2="80" y2="125" />
+      <line class="hidden" x1="100" y1="120" x2="100" y2="125" />
+      <line class="hidden" x1="120" y1="120" x2="120" y2="125" />
+      <line class="hidden" x1="140" y1="120" x2="140" y2="125" />
+      <line class="hidden" x1="160" y1="120" x2="160" y2="125" />
+      <line class="hidden" x1="180" y1="120" x2="180" y2="125" />
+      <line class="hidden" x1="200" y1="120" x2="200" y2="125" />
+      <line class="hidden" x1="220" y1="120" x2="220" y2="125" />
+      <line class="hidden" x1="240" y1="120" x2="240" y2="125" />
+      <line class="hidden" x1="260" y1="120" x2="260" y2="125" />
+      <line class="hidden" x1="280" y1="120" x2="280" y2="125" />
+    </g>
+  </g>
+
+  <!-- 5@074286=0O 3C1:0 (;520O) -->
+  <g>
+    <!-- 2=5H=OO D>@<0 -->
+    <path
+      class="contour"
+      d="
+        M60 120
+        H40
+        V106
+        H70
+        V112
+        H60
+        Z"
+    />
+    <!-- 2=CB@5==OO 87<5@8B5;L=0O ?>25@E=>ABL -->
+    <line class="contour" x1="60" y1="112" x2="60" y2="120" />
+  </g>
+
+  <!-- >4286=0O :0@5B:0 A 3C1:>9 -->
+  <g>
+    <!-- B5;> :0@5B:8 -->
+    <rect class="contour" x="150" y="112" width="80" height="24" rx="2" ry="2" />
+
+    <!-- >:=> ;8<10 (25@=L5@) -->
+    <rect class="contour" x="158" y="116" width="56" height="10" />
+
+    <!-- 45;5=8O ;8<10 (C:>@>G5==K5 HB@8E8) -->
+    <g>
+      <line class="hidden" x1="162" y1="116" x2="162" y2="126" />
+      <line class="hidden" x1="168" y1="116" x2="168" y2="124" />
+      <line class="hidden" x1="174" y1="116" x2="174" y2="124" />
+      <line class="hidden" x1="180" y1="116" x2="180" y2="124" />
+      <line class="hidden" x1="186" y1="116" x2="186" y2="126" />
+      <line class="hidden" x1="192" y1="116" x2="192" y2="124" />
+      <line class="hidden" x1="198" y1="116" x2="198" y2="124" />
+      <line class="hidden" x1="204" y1="116" x2="204" y2="124" />
+      <line class="hidden" x1="210" y1="116" x2="210" y2="126" />
+    </g>
+
+    <!-- ?>4286=0O 3C1:0 -->
+    <path
+      class="contour"
+      d="
+        M230 120
+        H250
+        V106
+        H220
+        V112
+        H230
+        Z"
+    />
+    <line class="contour" x1="230" y1="112" x2="230" y2="120" />
+  </g>
+
+  <!-- ;C18=><5@ (B>=:89 AB5@65=L) -->
+  <g>
+    <line class="contour" x1="190" y1="136" x2="190" y2="180" />
+    <line class="hidden" x1="188" y1="180" x2="192" y2="180" />
+  </g>
+
+  <!-- 8=B D8:A0F88 8 @0<:0 8=48:0B>@0 -->
+  <g>
+    <!-- @0<:0 8=48:0B>@0 -->
+    <rect class="contour" x="170" y="96" width="40" height="14" rx="2" ry="2" />
+    <!-- 28=B D8:A0F88 A1>:C -->
+    <circle class="contour" cx="150" cy="124" r="5" />
+    <circle class="hidden" cx="150" cy="124" r="2" />
+  </g>
+
+  <!-- 0;K5 25@E=85 3C1:8 (4;O 2=CB@5==53> 87<5@5=8O) -->
+  <g>
+    <!-- ;520O -->
+    <path
+      class="contour"
+      d="
+        M60 106
+        H52
+        V98
+        H68
+        V102
+        H60
+        Z"
+    />
+    <!-- ?@020O -->
+    <path
+      class="contour"
+      d="
+        M230 106
+        H238
+        V98
+        H222
+        V102
+        H230
+        Z"
+    />
+  </g>
+
+  <!--  07<5@K (@01>G0O 4;8=0 8 E>4 :0@5B:8) -->
+  <g>
+    <!-- @01>G0O 4;8=0 H:0;K -->
+    <line class="dim" x1="70" y1="150" x2="290" y2="150" />
+    <polygon class="dim-arrow" points="70,150 78,146 78,154" />
+    <polygon class="dim-arrow" points="290,150 282,146 282,154" />
+    <line class="dim" x1="70" y1="154" x2="70" y2="142" />
+    <line class="dim" x1="290" y1="154" x2="290" y2="142" />
+    <text class="dim-text" x="180" y="142" text-anchor="middle">L</text>
+  </g>
+
+  <g>
+    <!-- E>4 :0@5B:8 -->
+    <line class="dim" x1="150" y1="160" x2="230" y2="160" />
+    <polygon class="dim-arrow" points="150,160 158,156 158,164" />
+    <polygon class="dim-arrow" points="230,160 222,156 222,164" />
+    <line class="dim" x1="150" y1="164" x2="150" y2="152" />
+    <line class="dim" x1="230" y1="164" x2="230" y2="152" />
+    <text class="dim-text" x="190" y="152" text-anchor="middle">S</text>
+  </g>
+
+  <!-- AL A8<<5B@88 8=AB@C<5=B0 -->
+  <g opacity="0.7">
+    <line class="axis" x1="210" y1="80" x2="210" y2="200" />
+  </g>
+</svg>
+

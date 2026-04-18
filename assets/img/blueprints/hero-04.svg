@@ -1,0 +1,306 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #05070a; }
+      .grid-fine { stroke: #1d2f3f; stroke-width: 0.25; }
+      .grid-major { stroke: #1d2f3f; stroke-width: 0.5; }
+      .contour { fill: none; stroke: #6fa8ff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .hidden { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-dasharray: 6 3; }
+      .dim { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-linecap: round; }
+      .dim-arrow { fill: #6fa8ff; }
+      .dim-text { fill: #6fa8ff; font-family: "SF Mono", monospace; font-size: 10px; }
+      .axis { stroke: #6fa8ff; stroke-width: 0.6; stroke-dasharray: 6 3; }
+      .centerline { stroke: #6fa8ff; stroke-width: 0.8; stroke-dasharray: 4 3; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="420" height="260" />
+
+  <!-- !5B:0 -->
+  <g opacity="0.4">
+    <g class="grid-fine">
+      <line x1="20" y1="20" x2="20" y2="240" />
+      <line x1="40" y1="20" x2="40" y2="240" />
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="80" y1="20" x2="80" y2="240" />
+      <line x1="100" y1="20" x2="100" y2="240" />
+      <line x1="120" y1="20" x2="120" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="160" y1="20" x2="160" y2="240" />
+      <line x1="180" y1="20" x2="180" y2="240" />
+      <line x1="200" y1="20" x2="200" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="240" y1="20" x2="240" y2="240" />
+      <line x1="260" y1="20" x2="260" y2="240" />
+      <line x1="280" y1="20" x2="280" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="320" y1="20" x2="320" y2="240" />
+      <line x1="340" y1="20" x2="340" y2="240" />
+      <line x1="360" y1="20" x2="360" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+      <line x1="400" y1="20" x2="400" y2="240" />
+
+      <line x1="20" y1="40" x2="400" y2="40" />
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="80" x2="400" y2="80" />
+      <line x1="20" y1="100" x2="400" y2="100" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="140" x2="400" y2="140" />
+      <line x1="20" y1="160" x2="400" y2="160" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="200" x2="400" y2="200" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+    <g class="grid-major">
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+  </g>
+
+  <!-- AL A8<<5B@88 OI8:0 -->
+  <line class="axis" x1="210" y1="40" x2="210" y2="220" />
+
+  <!-- Строительный пластиковый ящик (вид спереди, с усилениями и ребрами жёсткости) -->
+  <g>
+    <!-- 2=5H=89 :>=BC@ -->
+    <path
+      class="contour"
+      d="
+        M90 110
+        H330
+        L320 190
+        Q318 200 308 205
+        H112
+        Q102 200 100 190
+        Z"
+    />
+
+    <!-- 2=CB@5==89 :>=BC@ (B>;ABK5 AB5=:8) -->
+    <path
+      class="contour"
+      d="
+        M104 116
+        H316
+        L308 184
+        Q307 190 302 193
+        H118
+        Q113 190 112 184
+        Z"
+    />
+
+    <!-- нижнее дно с небольшим уклоном -->
+    <path
+      class="hidden"
+      d="
+        M120 182
+        Q165 192 210 192
+        Q255 192 300 182"
+    />
+
+    <!-- вертикальные рёбра жёсткости -->
+    <line class="hidden" x1="135" y1="116" x2="135" y2="182" />
+    <line class="hidden" x1="170" y1="116" x2="170" y2="186" />
+    <line class="hidden" x1="210" y1="116" x2="210" y2="188" />
+    <line class="hidden" x1="250" y1="116" x2="250" y2="186" />
+    <line class="hidden" x1="285" y1="116" x2="285" y2="182" />
+
+    <!-- нижние поперечные рёбра -->
+    <line class="hidden" x1="120" y1="170" x2="300" y2="170" />
+    <line class="hidden" x1="120" y1="176" x2="300" y2="176" />
+
+    <!-- усиленные углы -->
+    <path
+      class="contour"
+      d="
+        M90 110
+        Q92 118 96 122"
+    />
+    <path
+      class="contour"
+      d="
+        M330 110
+        Q328 118 324 122"
+    />
+  </g>
+
+  <!-- Откидывающаяся крышка сверху -->
+  <g>
+    <!-- плоскость крышки (в открытом положении, приподнята вверх и назад) -->
+    <path
+      class="contour"
+      d="
+        M90 110
+        L120 80
+        H300
+        L330 110"
+    />
+    <!-- внутренняя кромка крышки -->
+    <path
+      class="hidden"
+      d="
+        M104 110
+        L128 86
+        H292
+        L316 110"
+    />
+    <!-- петли по краю крышки -->
+    <line class="hidden" x1="140" y1="110" x2="155" y2="110" />
+    <line class="hidden" x1="190" y1="110" x2="205" y2="110" />
+    <line class="hidden" x1="235" y1="110" x2="250" y2="110" />
+    <line class="hidden" x1="275" y1="110" x2="290" y2="110" />
+
+    <!-- ручка на крышке (углублённая, по центру) -->
+    <path
+      class="contour"
+      d="
+        M190 88
+        Q185 90 185 94
+        Q185 98 190 100
+        H230
+        Q235 98 235 94
+        Q235 90 230 88
+        Z"
+    />
+    <path
+      class="hidden"
+      d="
+        M196 90
+        Q192 92 192 94
+        Q192 96 196 98
+        H224
+        Q228 96 228 94
+        Q228 92 224 90
+        Z"
+    />
+  </g>
+
+  <!-- Боковые ручки (углублённые зоны захвата) -->
+  <g>
+    <path
+      class="contour"
+      d="
+        M100 128
+        Q95 132 95 140
+        Q95 148 100 152"
+    />
+    <path
+      class="hidden"
+      d="
+        M104 130
+        Q100 134 100 140
+        Q100 146 104 150"
+    />
+
+    <path
+      class="contour"
+      d="
+        M320 128
+        Q325 132 325 140
+        Q325 148 320 152"
+    />
+    <path
+      class="hidden"
+      d="
+        M316 130
+        Q320 134 320 140
+        Q320 146 316 150"
+    />
+  </g>
+
+  <!-- Внутренние перегородки (делители ячеек) -->
+  <g>
+    <!-- продольная -->
+    <line class="hidden" x1="210" y1="116" x2="210" y2="182" />
+    <!-- поперечные -->
+    <line class="hidden" x1="155" y1="149" x2="265" y2="149" />
+    <line class="hidden" x1="155" y1="165" x2="265" y2="165" />
+  </g>
+
+  <!-- Дополнительные размеры: внутренний проём и ячейки -->
+  <g>
+    <!-- внутренний размер по борту -->
+    <line class="dim" x1="104" y1="108" x2="316" y2="108" />
+    <polygon class="dim-arrow" points="104,108 112,104 112,112" />
+    <polygon class="dim-arrow" points="316,108 308,104 308,112" />
+    <line class="dim" x1="104" y1="112" x2="104" y2="100" />
+    <line class="dim" x1="316" y1="112" x2="316" y2="100" />
+    <text class="dim-text" x="210" y="100" text-anchor="middle">320</text>
+  </g>
+
+  <g>
+    <!-- высота внутреннего объёма -->
+    <line class="dim" x1="328" y1="116" x2="328" y2="193" />
+    <polygon class="dim-arrow" points="328,116 324,124 332,124" />
+    <polygon class="dim-arrow" points="328,193 324,185 332,185" />
+    <line class="dim" x1="322" y1="116" x2="334" y2="116" />
+    <line class="dim" x1="322" y1="193" x2="334" y2="193" />
+    <text class="dim-text" x="334" y="158" text-anchor="start">140</text>
+  </g>
+
+  <g>
+    <!-- ширина средней ячейки -->
+    <line class="dim" x1="170" y1="188" x2="250" y2="188" />
+    <polygon class="dim-arrow" points="170,188 178,184 178,192" />
+    <polygon class="dim-arrow" points="250,188 242,184 242,192" />
+    <line class="dim" x1="170" y1="192" x2="170" y2="180" />
+    <line class="dim" x1="250" y1="192" x2="250" y2="180" />
+    <text class="dim-text" x="210" y="178" text-anchor="middle">160</text>
+  </g>
+
+  <g>
+    <!-- высота ручки -->
+    <line class="dim" x1="88" y1="128" x2="88" y2="152" />
+    <polygon class="dim-arrow" points="88,128 84,136 92,136" />
+    <polygon class="dim-arrow" points="88,152 84,144 92,144" />
+    <line class="dim" x1="82" y1="128" x2="94" y2="128" />
+    <line class="dim" x1="82" y1="152" x2="94" y2="152" />
+    <text class="dim-text" x="94" y="143" text-anchor="start">24</text>
+  </g>
+
+  <!--  07<5@K ?> 3010@8BC OI8:0 -->
+  <g>
+    <!-- H8@8=0 -->
+    <line class="dim" x1="90" y1="102" x2="330" y2="102" />
+    <polygon class="dim-arrow" points="90,102 98,98 98,106" />
+    <polygon class="dim-arrow" points="330,102 322,98 322,106" />
+    <line class="dim" x1="90" y1="106" x2="90" y2="94" />
+    <line class="dim" x1="330" y1="106" x2="330" y2="94" />
+    <text class="dim-text" x="210" y="92" text-anchor="middle">360</text>
+  </g>
+
+  <g>
+    <!-- 2KA>B0 -->
+    <line class="dim" x1="340" y1="110" x2="340" y2="205" />
+    <polygon class="dim-arrow" points="340,110 336,118 344,118" />
+    <polygon class="dim-arrow" points="340,205 336,197 344,197" />
+    <line class="dim" x1="334" y1="110" x2="346" y2="110" />
+    <line class="dim" x1="334" y1="205" x2="346" y2="205" />
+    <text class="dim-text" x="346" y="162" text-anchor="start">160</text>
+  </g>
+
+  <!-- ">;I8=0 AB5=:8 ?> 1>@BC -->
+  <g>
+    <line class="dim" x1="96" y1="112" x2="104" y2="112" />
+    <polygon class="dim-arrow" points="96,112 100,108 100,116" />
+    <polygon class="dim-arrow" points="104,112 100,108 100,116" />
+    <line class="dim" x1="96" y1="116" x2="96" y2="108" />
+    <line class="dim" x1="104" y1="116" x2="104" y2="108" />
+    <text class="dim-text" x="100" y="104" text-anchor="middle">8</text>
+  </g>
+
+  <!-- >?>;=8B5;L=K5 >A52K5 ;8=88 -->
+  <g opacity="0.7">
+    <line class="centerline" x1="210" y1="110" x2="210" y2="205" />
+    <line class="centerline" x1="150" y1="116" x2="150" y2="190" />
+    <line class="centerline" x1="270" y1="116" x2="270" y2="190" />
+  </g>
+</svg>
+

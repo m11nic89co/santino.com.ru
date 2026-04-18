@@ -1,0 +1,174 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #05070a; }
+      .grid-fine { stroke: #1d2f3f; stroke-width: 0.25; }
+      .grid-major { stroke: #1d2f3f; stroke-width: 0.5; }
+      .contour { fill: none; stroke: #6fa8ff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .hidden { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-dasharray: 6 3; }
+      .dim { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-linecap: round; }
+      .dim-arrow { fill: #6fa8ff; }
+      .dim-text { fill: #6fa8ff; font-family: "SF Mono", monospace; font-size: 10px; }
+      .axis { stroke: #6fa8ff; stroke-width: 0.6; stroke-dasharray: 6 3; }
+      .centerline { stroke: #6fa8ff; stroke-width: 0.8; stroke-dasharray: 4 3; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="420" height="260" />
+
+  <!-- !5B:0 -->
+  <g opacity="0.4">
+    <g class="grid-fine">
+      <line x1="20" y1="20" x2="20" y2="240" />
+      <line x1="40" y1="20" x2="40" y2="240" />
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="80" y1="20" x2="80" y2="240" />
+      <line x1="100" y1="20" x2="100" y2="240" />
+      <line x1="120" y1="20" x2="120" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="160" y1="20" x2="160" y2="240" />
+      <line x1="180" y1="20" x2="180" y2="240" />
+      <line x1="200" y1="20" x2="200" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="240" y1="20" x2="240" y2="240" />
+      <line x1="260" y1="20" x2="260" y2="240" />
+      <line x1="280" y1="20" x2="280" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="320" y1="20" x2="320" y2="240" />
+      <line x1="340" y1="20" x2="340" y2="240" />
+      <line x1="360" y1="20" x2="360" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+      <line x1="400" y1="20" x2="400" y2="240" />
+
+      <line x1="20" y1="40" x2="400" y2="40" />
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="80" x2="400" y2="80" />
+      <line x1="20" y1="100" x2="400" y2="100" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="140" x2="400" y2="140" />
+      <line x1="20" y1="160" x2="400" y2="160" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="200" x2="400" y2="200" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+    <g class="grid-major">
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+  </g>
+
+  <!-- AL A8<<5B@88 OI8:0 4;O 8=AB@C<5=B>2 -->
+  <line class="axis" x1="210" y1="40" x2="210" y2="220" />
+
+  <!-- /I8: 4;O 8=AB@C<5=B>2 A B5;5A:>?8G5A:>9 @CG:>9: 284 A?5@548 -->
+  <g>
+    <!-- :>@?CA OI8:0 -->
+    <path
+      class="contour"
+      d="
+        M90 120
+        H330
+        L320 190
+        Q318 200 308 205
+        H112
+        Q102 200 100 190
+        Z"
+    />
+
+    <!-- 2=CB@5==OO ;8=8O 1>@B0 -->
+    <path
+      class="contour"
+      d="
+        M104 126
+        H316
+        L308 184
+        Q307 190 302 193
+        H118
+        Q113 190 112 184
+        Z"
+    />
+
+    <!-- ?5@53>@>4:0 ?> F5=B@C -->
+    <line class="hidden" x1="210" y1="126" x2="210" y2="188" />
+
+    <!-- 3=Q740 ?>4 8=AB@C<5=B (HB@8E>2K5 ;8=88) -->
+    <line class="hidden" x1="135" y1="130" x2="135" y2="184" />
+    <line class="hidden" x1="170" y1="130" x2="170" y2="184" />
+    <line class="hidden" x1="250" y1="130" x2="250" y2="184" />
+    <line class="hidden" x1="285" y1="130" x2="285" y2="184" />
+  </g>
+
+  <!-- "5;5A:>?8G5A:0O @CG:0 -->
+  <g>
+    <!-- =0?@02;ONI85 AB>9:8 -->
+    <rect class="contour" x="130" y="70" width="8" height="50" />
+    <rect class="contour" x="282" y="70" width="8" height="50" />
+
+    <!-- 2K4286=0O G0ABL AB>9:8 (HB@8E>20O) -->
+    <rect class="hidden" x="132" y="50" width="4" height="20" />
+    <rect class="hidden" x="284" y="50" width="4" height="20" />
+
+    <!-- ?>?5@5G8=0 @CG:8 -->
+    <path
+      class="contour"
+      d="
+        M136 50
+        Q150 40 210 40
+        Q270 40 284 50"
+    />
+  </g>
+
+  <!-- 0<:8 ?> 1>:0< -->
+  <g>
+    <rect class="contour" x="90" y="120" width="10" height="18" />
+    <rect class="contour" x="320" y="120" width="10" height="18" />
+    <line class="hidden" x1="95" y1="120" x2="95" y2="138" />
+    <line class="hidden" x1="325" y1="120" x2="325" y2="138" />
+  </g>
+
+  <!--  07<5@K ?> :>@?CAC -->
+  <g>
+    <!-- H8@8=0 -->
+    <line class="dim" x1="90" y1="112" x2="330" y2="112" />
+    <polygon class="dim-arrow" points="90,112 98,108 98,116" />
+    <polygon class="dim-arrow" points="330,112 322,108 322,116" />
+    <line class="dim" x1="90" y1="116" x2="90" y2="104" />
+    <line class="dim" x1="330" y1="116" x2="330" y2="104" />
+    <text class="dim-text" x="210" y="102" text-anchor="middle">360</text>
+  </g>
+
+  <g>
+    <!-- 2KA>B0 :>@?CA0 -->
+    <line class="dim" x1="340" y1="120" x2="340" y2="205" />
+    <polygon class="dim-arrow" points="340,120 336,128 344,128" />
+    <polygon class="dim-arrow" points="340,205 336,197 344,197" />
+    <line class="dim" x1="334" y1="120" x2="346" y2="120" />
+    <line class="dim" x1="334" y1="205" x2="346" y2="205" />
+    <text class="dim-text" x="346" y="166" text-anchor="start">160</text>
+  </g>
+
+  <!--  07<5@K ?> B5;5A:>?8G5A:>9 @CG:5 -->
+  <g>
+    <!-- 2KA>B0 2 2K428=CB>< ?>;>65=88 -->
+    <line class="dim" x1="150" y1="40" x2="150" y2="120" />
+    <polygon class="dim-arrow" points="150,40 146,48 154,48" />
+    <polygon class="dim-arrow" points="150,120 146,112 154,112" />
+    <line class="dim" x1="144" y1="40" x2="156" y2="40" />
+    <line class="dim" x1="144" y1="120" x2="156" y2="120" />
+    <text class="dim-text" x="156" y="84" text-anchor="start">160</text>
+  </g>
+
+  <!-- >?>;=8B5;L=K5 >A52K5 ;8=88 -->
+  <g opacity="0.7">
+    <line class="centerline" x1="210" y1="120" x2="210" y2="205" />
+  </g>
+</svg>
+

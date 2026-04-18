@@ -1,0 +1,181 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #05070a; }
+      .grid-fine { stroke: #1d2f3f; stroke-width: 0.25; }
+      .grid-major { stroke: #1d2f3f; stroke-width: 0.5; }
+      .contour { fill: none; stroke: #6fa8ff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .hidden { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-dasharray: 6 3; }
+      .dim { fill: none; stroke: #6fa8ff; stroke-width: 1; stroke-linecap: round; }
+      .dim-arrow { fill: #6fa8ff; }
+      .dim-text { fill: #6fa8ff; font-family: "SF Mono", monospace; font-size: 10px; }
+      .axis { stroke: #6fa8ff; stroke-width: 0.6; stroke-dasharray: 6 3; }
+      .centerline { stroke: #6fa8ff; stroke-width: 0.8; stroke-dasharray: 4 3; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="420" height="260" />
+
+  <!-- !5B:0 -->
+  <g opacity="0.4">
+    <g class="grid-fine">
+      <line x1="20" y1="20" x2="20" y2="240" />
+      <line x1="40" y1="20" x2="40" y2="240" />
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="80" y1="20" x2="80" y2="240" />
+      <line x1="100" y1="20" x2="100" y2="240" />
+      <line x1="120" y1="20" x2="120" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="160" y1="20" x2="160" y2="240" />
+      <line x1="180" y1="20" x2="180" y2="240" />
+      <line x1="200" y1="20" x2="200" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="240" y1="20" x2="240" y2="240" />
+      <line x1="260" y1="20" x2="260" y2="240" />
+      <line x1="280" y1="20" x2="280" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="320" y1="20" x2="320" y2="240" />
+      <line x1="340" y1="20" x2="340" y2="240" />
+      <line x1="360" y1="20" x2="360" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+      <line x1="400" y1="20" x2="400" y2="240" />
+
+      <line x1="20" y1="40" x2="400" y2="40" />
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="80" x2="400" y2="80" />
+      <line x1="20" y1="100" x2="400" y2="100" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="140" x2="400" y2="140" />
+      <line x1="20" y1="160" x2="400" y2="160" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="200" x2="400" y2="200" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+    <g class="grid-major">
+      <line x1="60" y1="20" x2="60" y2="240" />
+      <line x1="140" y1="20" x2="140" y2="240" />
+      <line x1="220" y1="20" x2="220" y2="240" />
+      <line x1="300" y1="20" x2="300" y2="240" />
+      <line x1="380" y1="20" x2="380" y2="240" />
+
+      <line x1="20" y1="60" x2="400" y2="60" />
+      <line x1="20" y1="120" x2="400" y2="120" />
+      <line x1="20" y1="180" x2="400" y2="180" />
+      <line x1="20" y1="220" x2="400" y2="220" />
+    </g>
+  </g>
+
+  <!-- AL A8<<5B@88 ?>425A=>3> 3>@H:0 -->
+  <line class="axis" x1="210" y1="30" x2="210" y2="220" />
+
+  <!-- Подвесы -->
+  <g>
+    <!-- верхняя точка крепления (ещё выше) -->
+    <circle class="contour" cx="210" cy="8" r="4" />
+    <!-- тросы подвеса (ещё более удлинённые) -->
+    <line class="contour" x1="210" y1="12" x2="160" y2="90" />
+    <line class="contour" x1="210" y1="12" x2="260" y2="90" />
+    <line class="hidden" x1="210" y1="12" x2="210" y2="92" />
+  </g>
+
+  <!-- >@?CA A;>6=>3> ?>425A=>3> 3>@H:0 (284 A?5@548, A 42>9=K<8 AB5=:0<8 8 4=>< 4;O 4@5=060) -->
+  <g>
+    <!-- 2=5H=89 :>=BC@ -->
+    <path
+      class="contour"
+      d="
+        M160 90
+        H260
+        L250 180
+        Q248 190 238 195
+        L210 205
+        L182 195
+        Q172 190 170 180
+        Z"
+    />
+
+    <!-- 2=CB@5==89 :>=BC@ (42>9=0O AB5=:0) -->
+    <path
+      class="contour"
+      d="
+        M172 96
+        H248
+        L240 176
+        Q239 182 234 185
+        L210 193
+        L186 185
+        Q181 182 180 176
+        Z"
+    />
+
+    <!-- 4@5=06=>5 4=> A C:;>=>< -->
+    <path
+      class="hidden"
+      d="
+        M178 178
+        Q194 186 210 186
+        Q226 186 242 178"
+    />
+
+    <!-- 4@5=06=K5 >B25@AB8O -->
+    <circle class="hidden" cx="196" cy="183" r="2" />
+    <circle class="hidden" cx="210" cy="185" r="2" />
+    <circle class="hidden" cx="224" cy="183" r="2" />
+  </g>
+
+  <!-- =CB@5==OO 2AB02:0-:0AA5B0 (4;O A<5==KE 3>@H:>2) -->
+  <g>
+    <path
+      class="hidden"
+      d="
+        M180 110
+        H240
+        L235 168
+        Q234 172 231 174
+        L210 181
+        L189 174
+        Q186 172 185 168
+        Z"
+    />
+  </g>
+
+  <!--  07<5@K ?> 3010@8BC 3>@H:0 -->
+  <g>
+    <!-- H8@8=0 ?> 25@E=5<C :@0N -->
+    <line class="dim" x1="160" y1="82" x2="260" y2="82" />
+    <polygon class="dim-arrow" points="160,82 168,78 168,86" />
+    <polygon class="dim-arrow" points="260,82 252,78 252,86" />
+    <line class="dim" x1="160" y1="86" x2="160" y2="74" />
+    <line class="dim" x1="260" y1="86" x2="260" y2="74" />
+    <text class="dim-text" x="210" y="72" text-anchor="middle">240</text>
+  </g>
+
+  <g>
+    <!-- 2KA>B0 >B 25@E=53> :@0O 4> 4=0 -->
+    <line class="dim" x1="270" y1="90" x2="270" y2="205" />
+    <polygon class="dim-arrow" points="270,90 266,98 274,98" />
+    <polygon class="dim-arrow" points="270,205 266,197 274,197" />
+    <line class="dim" x1="264" y1="90" x2="276" y2="90" />
+    <line class="dim" x1="264" y1="205" x2="276" y2="205" />
+    <text class="dim-text" x="276" y="152" text-anchor="start">180</text>
+  </g>
+
+  <!-- Размеры по подвесу -->
+  <g>
+    <!-- длина тросов (увеличенная) -->
+    <line class="dim" x1="146" y1="20" x2="146" y2="90" />
+    <polygon class="dim-arrow" points="146,20 142,28 150,28" />
+    <polygon class="dim-arrow" points="146,90 142,82 150,82" />
+    <line class="dim" x1="140" y1="20" x2="152" y2="20" />
+    <line class="dim" x1="140" y1="90" x2="152" y2="90" />
+    <text class="dim-text" x="152" y="62" text-anchor="start">80</text>
+  </g>
+
+  <!-- Дополнительные осевые линии -->
+  <g opacity="0.7">
+    <line class="centerline" x1="210" y1="90" x2="210" y2="205" />
+    <line class="centerline" x1="185" y1="100" x2="185" y2="190" />
+    <line class="centerline" x1="235" y1="100" x2="235" y2="190" />
+  </g>
+</svg>
+

@@ -1,0 +1,26 @@
+{
+  "name": "SANTINO | Премиум пластик",
+  "short_name": "SANTINO",
+  "description": "Премиум пластик для вашего дома",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0b",
+  "theme_color": "#0b0b0b",
+  "icons": [
+    {
+      "src": "assets/img/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
+
+
+
+
+

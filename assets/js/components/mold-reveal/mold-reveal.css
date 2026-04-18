@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+#section-2,
+#section-2 .content-wrapper,
+#section-2 .contract-content,
+#section-2 .modular-component-root,
+#section-2 .mold-reveal-app {
+  overflow: visible !important;
+}
+
+#section-2 .mold-reveal-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#section-2 .kinetic-blueprint-stand {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  min-height: var(--ui-surface-tech-stand-min-h, 600px);
+  box-sizing: border-box;
+  padding: var(--ui-surface-tech-pad-y) var(--ui-surface-tech-pad-x);
+  background: var(--ui-surface-tech-bg);
+  -webkit-backdrop-filter: blur(var(--ui-surface-tech-blur));
+  backdrop-filter: blur(var(--ui-surface-tech-blur));
+  border: var(--ui-surface-tech-border);
+  border-radius: var(--ui-surface-tech-radius);
+  overflow: hidden;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Глубина сцены: затемняющий скрим под glass, HUD/SVG остаются выше (z-index слоёв) */
+#section-2 .kinetic-blueprint-stand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    ellipse 92% 78% at 50% 42%,
+    rgba(18, 30, 36, 0.82) 0%,
+    rgba(10, 18, 24, 0.55) 48%,
+    rgba(4, 10, 14, 0.4) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+#section-2 .kinetic-blueprint-stand .ghost-layer {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 1;
+  opacity: 0.1;
+  filter: blur(0.5px);
+  pointer-events: none;
+}
+
+#section-2 .kinetic-blueprint-stand .hud-left,
+#section-2 .kinetic-blueprint-stand .hud-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.85rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(140, 206, 210, 0.95);
+  text-shadow: 0 0 4px rgba(140, 206, 210, 0.2);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 1;
+}
+
+#section-2 .kinetic-blueprint-stand .hud-left {
+  left: 20%;
+}
+
+#section-2 .kinetic-blueprint-stand .hud-right {
+  left: 80%;
+}
+
+#section-2 .kinetic-blueprint-stand .reveal-stage {
+  position: relative;
+  width: min(560px, 92vw);
+  max-width: 100%;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  filter: drop-shadow(0 12px 32px rgba(0, 0, 0, 0.52));
+  z-index: 1;
+  opacity: 1;
+  pointer-events: none;
+}
+
+#section-2 .kinetic-blueprint-stand .reveal-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+  pointer-events: none;
+}
+
+#section-2 .kinetic-blueprint-stand .pedestal-line {
+  stroke: rgba(190, 210, 218, 0.28);
+  stroke-width: 0.6;
+}
+
+#section-2 .kinetic-blueprint-stand .scanner-line {
+  stroke: rgba(135, 230, 240, 0.32);
+  stroke-width: 0.7;
+  filter: drop-shadow(0 0 2px rgba(130, 230, 255, 0.2));
+}
+
+#section-2 .kinetic-blueprint-stand .mold-status-label {
+  margin: 0;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(228, 236, 239, 0.92);
+  text-shadow: 0 0 4px rgba(240, 248, 250, 0.16);
+  z-index: 1;
+  pointer-events: none;
+}
+
+#section-2 .mold-reveal-app .cta-calculate {
+  z-index: 50;
+  opacity: 1;
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+/* Десктоп: CTA у нижнего края приложения, визуально под стеклянным стендом (абсолютно от низа .mold-reveal-app) */
+@media (min-width: 901px) {
+  #section-2 .mold-reveal-app {
+    position: relative;
+  }
+
+  #section-2 .mold-reveal-app .cta-calculate {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.4rem;
+    width: max-content;
+    max-width: calc(100% - 3rem);
+    margin: 0 auto;
+  }
+}
+
+/* Мобильные: высота информационного блока (фон) ~в 2 раза ниже десктопа; строго по центру по горизонтали */
+@media (max-width: 900px) {
+  #section-2 .modular-component-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #section-2 .mold-reveal-app {
+    max-width: min(560px, calc(100% - 8px));
+  }
+
+  #section-2 .kinetic-blueprint-stand {
+    min-height: 300px;
+    padding: 1.1rem 1rem 1rem;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #section-2 .kinetic-blueprint-stand .ghost-layer {
+    min-height: 250px;
+  }
+
+  /* Кнопка вне фонового прямоугольника — заметный отступ снизу от блока */
+  #section-2 .mold-reveal-app .cta-calculate {
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: auto;
+    max-width: none;
+    margin: 1.15rem 0 0;
+  }
+}
+
+@media (max-width: 640px) {
+  #section-2 .kinetic-blueprint-stand .hud-left,
+  #section-2 .kinetic-blueprint-stand .hud-right {
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+  }
+
+  #section-2 .kinetic-blueprint-stand .hud-left {
+    left: 24%;
+  }
+
+  #section-2 .kinetic-blueprint-stand .hud-right {
+    left: 76%;
+  }
+}

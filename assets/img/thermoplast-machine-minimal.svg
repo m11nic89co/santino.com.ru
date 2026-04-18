@@ -1,0 +1,64 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="machineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#2a2a2a;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0f0f0f;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ADB5;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#00d4e0;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#00ADB5;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main machine base -->
+  <rect x="50" y="300" width="500" height="80" fill="url(#machineGradient)" rx="8"/>
+  
+  <!-- Machine body -->
+  <rect x="80" y="150" width="440" height="150" fill="url(#machineGradient)" rx="12"/>
+  
+  <!-- Injection unit -->
+  <rect x="100" y="120" width="150" height="60" fill="url(#machineGradient)" rx="6"/>
+  
+  <!-- Barrel -->
+  <rect x="270" y="140" width="200" height="30" fill="url(#accentGradient)" rx="15" filter="url(#softGlow)"/>
+  <circle cx="270" cy="155" r="18" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+  <circle cx="470" cy="155" r="18" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+  
+  <!-- Clamping unit -->
+  <rect x="550" y="170" width="80" height="120" fill="url(#machineGradient)" rx="8"/>
+  <rect x="560" y="180" width="60" height="100" fill="url(#accentGradient)" rx="4" filter="url(#softGlow)"/>
+  
+  <!-- Control panel -->
+  <rect x="120" y="80" width="150" height="30" fill="url(#machineGradient)" rx="4"/>
+  <rect x="130" y="90" width="130" height="10" fill="url(#accentGradient)" rx="2" filter="url(#softGlow)"/>
+  
+  <!-- Status indicators -->
+  <circle cx="300" y="200" r="12" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+  <circle cx="330" y="200" r="12" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+  <circle cx="360" y="200" r="12" fill="url(#accentGradient)" filter="url(#softGlow)"/>
+  
+  <!-- Hydraulic lines -->
+  <rect x="100" y="250" width="400" height="20" fill="url(#accentGradient)" rx="10" filter="url(#softGlow)"/>
+  
+  <!-- Safety elements -->
+  <rect x="60" y="150" width="15" height="150" fill="url(#accentGradient)" rx="2" filter="url(#softGlow)"/>
+  <rect x="525" y="150" width="15" height="150" fill="url(#accentGradient)" rx="2" filter="url(#softGlow)"/>
+  
+  <!-- Data flow lines -->
+  <path d="M 200 120 Q 250 100 300 120" stroke="url(#accentGradient)" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+  <path d="M 350 120 Q 400 100 450 120" stroke="url(#accentGradient)" stroke-width="2" fill="none" filter="url(#softGlow)"/>
+  
+  <!-- Steam/heat effects -->
+  <path d="M 300 140 Q 310 130 320 140 Q 330 150 340 140" stroke="url(#accentGradient)" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M 350 140 Q 360 130 370 140 Q 380 150 390 140" stroke="url(#accentGradient)" stroke-width="1" fill="none" opacity="0.5"/>
+</svg>
+
